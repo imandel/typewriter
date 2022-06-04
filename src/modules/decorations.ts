@@ -1,4 +1,5 @@
-import { TextDocument, Delta, Line, EditorRange, TextChange, isEqual, AttributeMap } from '@typewriter/document';
+import { TextDocument, Line, EditorRange, TextChange, isEqual, AttributeMap } from '@typewriter/document';
+import { Delta } from '@typewriter/delta'
 import Editor, { EditorChangeEvent } from '../Editor';
 import { h, Props, VNode } from '../rendering/vdom';
 import { EmbedType, FormatType } from '../typesetting';
