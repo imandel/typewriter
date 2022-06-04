@@ -1,5 +1,5 @@
-import { TextDocument, Line, EditorRange, TextChange, AttributeMap } from '@typewriter/document';
-import { Delta } from '@typewriter/delta';
+import { TextDocument, Line, EditorRange, TextChange } from '@typewriter/document';
+import { Delta, AttributeMap } from '@typewriter/delta';
 import Editor from '../Editor';
 import { VNode } from '../rendering/vdom';
 export interface Decorations {
