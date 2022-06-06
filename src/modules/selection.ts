@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import  isEqual from '../util/isEqual';
+=======
+import { isEqual } from '@typewriter/delta';
+>>>>>>> delta-reqs
 import Editor, { EditorChangeEvent } from '../Editor';
 import { getSelection, setSelection } from '../rendering/selection';
 import { getLineNodeStart } from '../rendering/rendering';

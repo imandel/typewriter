@@ -1,9 +1,9 @@
-import { TextDocument, Line, EditorRange, TextChange  } from '@typewriter/document';
-import { Delta, AttributeMap} from '@typewriter/delta'
+import { TextDocument, Line, EditorRange, TextChange } from '@typewriter/document';
 import Editor, { EditorChangeEvent } from '../Editor';
 import { h, Props, VNode } from '../rendering/vdom';
 import { EmbedType, FormatType } from '../typesetting';
-import  isEqual from '../util/isEqual';
+import {Delta, isEqual, AttributeMap} from '@typewriter/delta'
+
 const endInSemicolon = /;\s*$/;
 
 const formatDecoration: FormatType = {
