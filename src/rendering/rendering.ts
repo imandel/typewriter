@@ -1,8 +1,9 @@
-import { isEqual, TextDocument, AttributeMap, Line, EditorRange, Delta, Op } from '@typewriter/document';
+import { TextDocument, Line, EditorRange, Op } from '@typewriter/document';
 import { h, patch, VChild, VNode } from './vdom';
 import Editor from '../Editor';
 import { LineType } from '../typesetting/typeset';
 import { applyDecorations } from '../modules/decorations';
+import { AttributeMap, isEqual, Delta } from '@typewriter/delta';
 
 const EMPTY_ARR = [];
 const BR = h('br', {});
