@@ -1,4 +1,4 @@
-import { AttributeMap } from '@typewriter/document';
+import { AttributeMap } from '@typewriter/delta';
 import Editor from '../Editor';
 export declare type Replacement = [RegExp, (captured: string) => AttributeMap];
 export declare type TextReplacement = [RegExp, (captured: string) => string];

@@ -1,6 +1,7 @@
-import { TextDocument, Line, EditorRange, Delta } from '@typewriter/document';
+import { TextDocument, Line, EditorRange } from '@typewriter/document';
 import { VChild, VNode } from './vdom';
 import Editor from '../Editor';
+import { Delta } from '@typewriter/delta';
 export declare type CombinedEntry = Line | Line[];
 export declare type Combined = CombinedEntry[];
 interface CombinedData {

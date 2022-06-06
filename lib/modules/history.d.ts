@@ -1,5 +1,6 @@
-import { TextChange, Delta } from '@typewriter/document';
+import { TextChange } from '@typewriter/document';
 import Editor from '../Editor';
+import { Delta } from '@typewriter/delta';
 export interface StackEntry {
     redo: TextChange;
     undo: TextChange;

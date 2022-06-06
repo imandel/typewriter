@@ -1,6 +1,7 @@
 import { Readable } from 'svelte/store';
-import { AttributeMap, EditorRange, TextDocument } from '@typewriter/document';
+import { EditorRange, TextDocument } from '@typewriter/document';
 import Editor from './Editor';
+import { AttributeMap } from '@typewriter/delta';
 export interface EditorStores {
     active: Readable<AttributeMap>;
     doc: Readable<TextDocument>;

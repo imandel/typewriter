@@ -1,4 +1,4 @@
-import { AttributeMap } from '@typewriter/document';
+import { AttributeMap } from '@typewriter/delta';
 import { VChild, VNode } from '../rendering/vdom';
 import Editor, { Shortcuts } from '../Editor';
 export declare class Typeset {

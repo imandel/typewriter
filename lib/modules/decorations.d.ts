@@ -1,7 +1,7 @@
 import { TextDocument, Line, EditorRange, TextChange } from '@typewriter/document';
-import { Delta, AttributeMap } from '@typewriter/delta';
 import Editor from '../Editor';
 import { VNode } from '../rendering/vdom';
+import { Delta, AttributeMap } from '@typewriter/delta';
 export interface Decorations {
     class?: string;
     style?: string;
