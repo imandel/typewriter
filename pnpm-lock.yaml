@@ -11,6 +11,7 @@ specifiers:
   '@typewriter/document': ^0.7.3
   chai: ^4.3.6
   chai-exclude: ^2.1.0
+  fast-diff: ^1.2.0
   jsdom: ^19.0.0
   jsdom-global: ^3.0.2
   mocha: ^10.0.0
@@ -32,6 +33,7 @@ dependencies:
   '@types/node': 17.0.39
   '@typewriter/delta': 1.0.2
   '@typewriter/document': 0.7.3
+  fast-diff: 1.2.0
 
 devDependencies:
   '@pyoner/svelte-types': 3.4.4-2

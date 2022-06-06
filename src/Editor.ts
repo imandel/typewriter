@@ -1,4 +1,4 @@
-import { TextDocument, TextChange, hasFormat, Delta, AttributeMap, EditorRange, normalizeRange, Line, isEqual } from '@typewriter/document';
+import { TextDocument, TextChange, hasFormat, EditorRange, normalizeRange, Line} from '@typewriter/document';
 import { Typeset, TypesetTypes, Commands, Types } from './typesetting/typeset';
 import { defaultModules } from './modules/defaults';
 import { defaultTypes } from './typesetting/defaults';
@@ -6,6 +6,8 @@ import { docFromHTML, docToHTML } from './rendering/html';
 import EventDispatcher from './util/EventDispatcher';
 import { getBoudingBrowserRange, getIndexFromPoint } from './rendering/position';
 import { SourceString, Source } from './Source';
+import { Delta, AttributeMap } from '@typewriter/delta';
+import  isEqual from './util/isEqual';
 
 const EMPTY_OBJ = {};
 const EMPTY_ARR = [];

@@ -1,7 +1,8 @@
-import { TextDocument, TextChange, Delta, AttributeMap, EditorRange, Line } from '@typewriter/document';
+import { TextDocument, TextChange, EditorRange, Line } from '@typewriter/document';
 import { Typeset, TypesetTypes, Commands } from './typesetting/typeset';
 import EventDispatcher from './util/EventDispatcher';
 import { SourceString, Source } from './Source';
+import { Delta, AttributeMap } from '@typewriter/delta';
 export interface EditorOptions {
     identifier?: any;
     root?: HTMLElement | false;

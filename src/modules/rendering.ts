@@ -16,7 +16,7 @@ export function rendering(editor: Editor) {
   function render(what?: RenderWhat) {
     if (!what) {
       const { doc } = editor.modules.decorations as { doc: TextDocument } || editor;
-      renderWhole(editor, doc);
+      renderWhole(editor, doc)
     } else {
       const { doc, old } = what;
       if (old && doc) {

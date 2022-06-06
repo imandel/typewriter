@@ -1,9 +1,9 @@
-import { isEqual, TextDocument, AttributeMap, Line, EditorRange, Delta, Op } from '@typewriter/document';
+import { TextDocument, AttributeMap, Line, EditorRange, Delta, Op } from '@typewriter/document';
 import { h, patch, VChild, VNode } from './vdom';
 import Editor from '../Editor';
 import { LineType } from '../typesetting/typeset';
 import { applyDecorations } from '../modules/decorations';
-
+import  isEqual from '../util/isEqual';
 const EMPTY_ARR = [];
 const BR = h('br', {});
 const nodeFormatType = new WeakMap();

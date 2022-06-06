@@ -1,4 +1,5 @@
-import { TextDocument, Delta, EditorRange, Line } from '@typewriter/document';
+import { TextDocument, EditorRange, Line } from '@typewriter/document';
+import { Delta } from '@typewriter/delta';
 import Editor from '../Editor';
 export declare const BLOCK_ELEMENTS = "address, article, aside, blockquote, editor, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, li, main, nav, noscript, ol, output, p, pre, section, table, tfoot, ul, video";
 export interface DeltaFromHTMLOptions {

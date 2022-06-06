@@ -1,5 +1,6 @@
-import { Delta, EditorRange } from '@typewriter/document';
+import { EditorRange } from '@typewriter/document';
 import Editor from '../Editor';
+import { Delta } from '@typewriter/delta';
 export interface PasteEventInit extends EventInit {
     delta: Delta;
     html?: string;

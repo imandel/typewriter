@@ -1,7 +1,9 @@
-import { Delta, Line, normalizeRange, isEqual, EditorRange } from '@typewriter/document';
+import { Line, normalizeRange, EditorRange } from '@typewriter/document';
 import Editor from '../Editor';
 import { deltaFromHTML } from '../rendering/html';
 import { Source } from '../Source';
+import { Delta } from '@typewriter/delta';
+import  isEqual from '../util/isEqual';
 
 const dontFixNewline = { dontFixNewline: true };
 const ignoreId = { excludeProps: new Set([ 'id' ]) };
